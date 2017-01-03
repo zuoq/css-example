@@ -1,0 +1,94 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+html {
+  height: 100%;
+}
+.con {
+  width: 600px;
+  height: 1000px;
+  margin: 0 auto;
+  position: relative;
+  z-index: 0;
+  background: #3f3f3f;
+}
+.tiangle-wrap {
+  position: relative;
+  z-index: 50;
+  top: 100px;
+  width: 600px;
+  height: 600px;
+  border-radius: 50%;
+  transform: rotate(15deg);
+  -ms-transform: rotate(15deg);
+  /* IE 9 */
+  -moz-transform: rotate(15deg);
+  /* Firefox */
+  -webkit-transform: rotate(15deg);
+  /* Safari 和 Chrome */
+  -o-transform: rotate(15deg);
+  /* Opera */
+  animation: rotate-tiangle 3s linear infinite;
+}
+@-webkit-keyframes rotate-tiangle {
+  0% {
+    -webkit-transform: rotate(15deg);
+  }
+  50% {
+    -webkit-transform: rotate(195deg);
+  }
+  100% {
+    -webkit-transform: rotate(375deg);
+  }
+}
+.tiangle,
+.center {
+  position: relative;
+  z-index: 100;
+  width: 0;
+  height: 0;
+}
+.tiangle1 {
+  top: 300px;
+  left: 300px;
+  border-left: 280px solid #64d549;
+  border-bottom: 120px solid transparent;
+}
+.tiangle2 {
+  top: 180px;
+  left: 180px;
+  border-top: 280px solid #4798cf;
+  border-left: 120px solid transparent;
+}
+.tiangle3 {
+  top: -220px;
+  left: 20px;
+  border-top: 120px solid transparent;
+  border-right: 280px solid #d83f3a;
+}
+.tiangle4 {
+  top: -500px;
+  left: 300px;
+  border-top: 280px solid transparent;
+  border-left: 120px solid #d0dc54;
+}
+.center {
+  position: relative;
+  z-index: 100;
+  top: -520px;
+  left: 280px;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  background: #fff;
+}
+.bar {
+  position: relative;
+  top: -198px;
+  left: 290px;
+  z-index: 20;
+  width: 20px;
+  height: 500px;
+  background: #fff;
+}

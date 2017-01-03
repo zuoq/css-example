@@ -54,3 +54,40 @@ body {
 	border-right: 40px solid transparent;
 	border-bottom: 80px solid transparent;
 }
+
+.tiangle-change1 {
+	width: 0;
+	height: 0;
+	margin: 0 auto;
+	border-top: 0 solid transparent;
+	border-left: 80px solid #cc3300;
+	border-right: 0 solid transparent;
+	border-bottom: 40px solid transparent;
+}
+.tiangle-change2 {
+	width: 0;
+	height: 0;
+	margin: 0 auto;
+	border-top: 80px solid #cc3300;
+	border-left: 0 solid #cc3300;
+	border-right: 40px solid transparent;
+	border-bottom: 0 solid #cc3300;
+}
+.tiangle-change3 {
+	width: 0;
+	height: 0;
+	margin: 0 auto;
+	border-top: 80px solid #cc3300;
+	border-left: 40px solid transparent;
+	border-right: 0 solid transparent;
+	border-bottom: 0 solid #cc3300;
+}
+.tiangle-change4 {
+	width: 0;
+	height: 0;
+	margin: 0 auto;
+	border-top: 0 solid transparent;
+	border-left: 0 solid transparent;
+	border-right: 80px solid #cc3300;
+	border-bottom: 40px solid transparent;
+}
