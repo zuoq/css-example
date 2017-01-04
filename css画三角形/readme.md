@@ -28,6 +28,7 @@
 	border-right: 40px solid #996600;
 	border-bottom: 40px solid #333333;
 }
+```
 
 ![只有border强宽下显示效果](http://pic.yupoo.com/izqcool/G7QF2JYn/medish.jpg)
 ---
